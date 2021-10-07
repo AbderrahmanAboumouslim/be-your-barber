@@ -1,0 +1,16 @@
+{
+  "name": "beyourbarber",
+  "version": "1.1.1",
+  "description": "html & css ( no javascript yet )",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Aboumouslim Abderrahman",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
